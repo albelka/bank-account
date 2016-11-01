@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Epicodus Credit Union</h1>
+      <form class="bank">
+        <div class="newAccount">
+          <h2>Register a new account:</h2>
+          <div class="form-group">
+            <label for="enterName">Please enter your name</label>
+            <input class="form-control" id="enterName" placeholder="Name"></input>
+          </div>
+
+          <div class="form-group">
+            <label for="initialDeposit">How much would you like to deposit?</label>
+            <input class="form-control" id="initialDeposit" placeholder="Deposit"></input>
+          </div>
+          <button type="submit" class="btn btn-warning">Enter</button>
+        </div>
+      </form>
+
+      <form class="deposit">
+        <div class="form-group">
+          <h2>Deposit or withdraw funds</h2>
+          <label for="depositAmount">Deposit amount</label>
+          <input class="form-control" id="depositAmount" placeholder="$$$$"></input>
+        </div>
+
+        <div class="form-group">
+          <label for="withdrawalAmount">Withdrawal amount</label>
+          <input class="form-control" id="withdrawalAmount" placeholder="$$$$"></input>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Enter</button>
+    </form>
+
+    <h2>Current balance:</h2>
+    <p id="currentBalance"></p>
+    </div>
+
+  </body>
+</html>
